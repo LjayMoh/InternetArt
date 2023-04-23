@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IxDProcess</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="../Scripts/design.js" defer></script>
     <link rel="stylesheet" href="../Styles/normalize.css">
     <link rel="stylesheet" href="../Styles/style.css">
     <script src="https://kit.fontawesome.com/983c1e16c7.js" crossorigin="anonymous"></script>
@@ -24,10 +27,10 @@
                 <label for="check" class="bars"><i class="fa-solid fa-bars"></i></label>
 
                 <ul>
-                    <li><a href="../index.html" class="active"><i class="fas fa-home"></i> Homepage</a></li>
+                    <li><a href="../index.html" class="u-url"><i class="fas fa-home"></i> Homepage</a></li>
                     <li><a class="u-url" href="../DevBlogs/Blogs.html"><i class="fas fa-pager"></i> Dev Blogs</a></li>
                     <li><a class="u-url" href="../InternetArt/Art(s).html"><i class="fas fa-pager"></i> Internet Art(s)</a></li>
-                    <li><a class="u-url" href="../Design/WebDesign.html"><i class="fas fa-pager"></i> Web Design</a></li>
+                    <li><a class="u-url" href="WebDesign.html"><i class="fas fa-pager"></i> Web Design</a></li>
                 </ul>
             </nav>
         </header>
@@ -86,14 +89,252 @@
                     website.
                 </p>
                 <figure><img class="png" src="../images/Userflow.png" alt="UserFlow Diagram">
-                <caption>User FLow Diagram</caption></figure>
+                <caption>User Flow Diagram</caption></figure>
+
+                <p>
+                    For the interface elements, in terms of the navigational components I used sliders for the homepage, pagination for every page, icons for to signify what the specific text is 
+                    based on. Tags showing what a certain image is signifying, hyperlinks to show the links. For input controls I used buttons for the scroller and the send button in the foorter when the user is done writing 
+                    their feedback if interested, I used a date field in the sliders to show when each blog was written, then I used toggles to make the navigation easy for the user to move between
+                    the pages. The information components then include the use of icons, and a dialogue box for the user to read additinonal information.
+                </p>
 
                 <h3 class="subtitle">Design and Implementation</h3>
+                <p>
+                    <p>
+                        In terms of the UI and UX, I wanted the user to have fun, feel keen to know what information other web pages hold, and express their emotions by giving feedback. 
+                        For the presented user interface, I will briefly explain my design choices focusing on four aspects of the visual representation: typography, colour, graphics, and layout.
+                    </p>
+    
+                    <p>
+                        •	<span>Typography</span>: I used Times New Roman for the font because it is legible and spacious, it gives the reader a coherent text to engage with. Most people are familiar with it because it is an old font, it is neat and easy to read. 
+                        I used different font sizes to suit the layout and to differentiate between texts like showing which one is the heading, this is because the reader will not be confused about where to start reading and what the content is about 
+                        since headings can give the reader an insight of what they are going to read about. I also used different font weights to specify which text holds important information.
+                    </p>
+    
+                    <p>
+                        •	<span>Colour</span>: I wanted to keep the aesthetic appeal fresh and easy to look at, I used about six colours because I wanted to be exploratory and see if the colours will be complementary. I used a colour-blind-friendly palette which includes black, 
+                        white/cream-white, light-pink, light blue/aqua, grey, and dark green. I used these colours because I wanted the website to look youthful and I feel like the colours worked well together to emphasize that. For all the paragraph texts on the pages
+                        I used black to signify the power that the information holds and its elegance like the captions in the slider cards, also to avoid the text blending into the background images.
+                        I used white for some texts because it signifies simplicity and clarity like when the user hover on the links in the header. 
+                        Grey was used as the background colour in the footer to show the balance between the information in the body section and the footer section. Light pink and cream white were used for some subheadings and as the hovering colour on the socials because I wanted to give the text some 
+                        youthfulness and bring a smooth flow of information, and I want the website to stay neutral between formality and informality, so a little pop of colour does the trick. I used aqua/light blue to make the links on all pages stand out and show some stability and balance in the text, 
+                        also a dark green background shows when the user hovers in the links to the home, data visualization, and data-art pages to show the user that they can move to the pages without hesitations and see the importance of each link. All these colours were complementary, and I feel like so far, 
+                        they work well together to achieve the youth idea of the website and its informality side.
+                    </p>
+               
+                    <p>
+                        •	<span>Graphics</span>: I used images from unsplash.com for the background images and images in the slider cards on the home page. I chose to use these images for aesthetic appeal and attraction. I resized and compressed the images so that they do not take too much space, and don't 
+                        take time to load when the website starts to show information. I used simple and light images as possible, to bring the peaceful and calming aesthetic when the user navigates through the pages, and to ensure that the text does not blend in. Then I included graphics that I designed myself like 
+                        on the wireframes page and the diagrams that show the user interface interaction flow.
+                    </p>
+    
+                    <p>
+                        •	<span>Layout</span>: I was working towards readability, coherence, and order, and I feel like I accomplished this with the graphics, font, and colour palette I used to design the website. The style guide, critical reflections, and blog posts almost have the same layout because 
+                        they contain a lot of text without any illustrations, so I kept the layout simple. The home page and the wireframes page have slider displays to show the content, I chose these layouts because the content includes images and carried a lot of important information for the user to pay close attention to. 
+                        Also, the layout enables effortless navigation through the page and makes it more attractive.
+                    </p>
+    
+                    <p>
+                        My UI and UX thus far are well done, and I am working to implement them more and bring better changes to the design using the feedback I am yet to receive. The user interface of the website should have an intellectual, spiritual, and emotional connection with the user; 
+                        the functionality and usability of the website must be investigated more through prototypes and wireframes to end up with a design with good UI and UX.
+                    </p>
+                </p>
+
+                <p>
+                    I started the design process by designing the wireframes aiming to show my initial ideas, see illustrations and explanations below.
+                </p>
+                <p>
+                    <figure><img class="png" src="../images/BlogPages.png" alt="Blog pages wireframe">
+                        <aside>
+                            <h4 class="subt">Blogposts wireframe</h4>
+                            <p>
+                                I chose this layout because the information will be neatly presented and readable with a simple navigation.
+                            </p>
+                        </aside>
+                    </figure>
+                </p>
+
+                <p>
+                    <figure><img class="png" src="../images/Homepage.png" alt="Homepage wireframe">
+                        <aside>
+                            <h5 class="subt">Homepage wireframe</h5>
+                            <p>
+                                The layout allows users to have options to navigate to other pages including links and sliders. 
+                                The interface will include images to make it attractive. The left and right arrows will be buttons to allow the 
+                                user to move the slider cards. I chose this layout because it will keep the content in order and the user will have 
+                                a clear understanding when they navigate the page that they are on the homepage.
+                            </p>
+                        </aside>
+                    </figure>
+                </p>
+
+                <p>
+                    <figure><img class="png" src="../images/InternetArt1Page.png" alt="Data-Art page wireframe">
+                        <aside>
+                            <h6 class="subt">Internet Art1 page wireframe</h6>
+                            <p>
+                                I chose this layout because I want the art to be well presented and make the image be spacious and clear.
+                            </p>
+                        </aside>
+                    </figure>
+                </p>
+
+                <p>
+                    <figure><img class="png" src="../images/InternetArt1Page.png" alt="Data-Art page wireframe">
+                        <aside>
+                            <h2 class="subt">Internet Art1 page wireframe</h2>
+                            <p>
+                                I chose this layout because I want the art to be well presented and make the image be spacious and clear.
+                            </p>
+                        </aside>
+                    </figure>
+                </p>
+
+                <p>
+                    <figure><img class="png" src="../images/StyleguidePage.png" alt="Styleguide wireframe">
+                        <aside>
+                            <h3 class="subt">Styleguide page wireframe</h3>
+                            <p>
+                                I chose the same layout as the blog posts’ page because the page will include a lot of information that I want to keep legible and spaciously presented. 
+                                It will include critical writing of my style choices and reasons behind the choices as well as how these choices have or had impacts on the design.
+                            </p>
+                        </aside>
+                    </figure>
+                </p>
+
+                <p>
+                    <figure><img class="png" src="../images/ReflectionPage.png" alt="Reflections page wireframe">
+                        <aside>
+                            <h4 class="subt">Reflections page wireframe</h4>
+                            <p>
+                                More like the style guide page, it will include reflections on the design process and reasons behind my design choices.
+                            </p>
+                        </aside>
+                    </figure>
+                </p>
+
+                <p>
+                    <figure><img class="png" src="../images/IxDPage.png" alt="Data-Visualizations wireframe">
+                        <aside>
+                            <h5 class="subt">IxD Process page wireframe</h5>
+                            <p>
+                                The layout will have illustrations with supporting captions on the side, I chose it because it will present the 
+                                content legibly. I want the page to show all the design choices I made and the reasons behind then while being 
+                                spacious and readable.
+                            </p>
+                        </aside>
+                    </figure>
+                </p>
+
+                <p>
+                    <figure><img class="png" src="../images/WireframesPage.png" alt="Wireframes wireframe">
+                        <aside>
+                            <h6 class="subt">Wireframes page wireframe</h6>
+                            <p>
+                                I went for the slider layout to keep the content in one place and let the user have time to look at the 
+                                wireframes slide-by-slide. I chose this type of layout because there will not be too much text on the page, and the wireframes have enough information on their own.
+                            </p>
+                        </aside>
+                    </figure>
+                </p>
+
+                <p>
+                    <figure><img class="png" src="../images/NotesPage.png" alt="Data-Art page wireframe">
+                        <aside>
+                            <h2 class="subt">Implementation Notes page wireframe</h2>
+                            <p>
+                                The design is the same as the blogs page wireframe because I want the information to be laid out the same.
+                            </p>
+                        </aside>
+                    </figure>
+                </p>
+
+                <p>
+                    <figure><img class="png" src="../images/WebDesignPage.png" alt="Data-Art page wireframe">
+                        <aside>
+                            <h3 class="subt">Internet Art1 page wireframe</h3>
+                            <p>
+                                The design is the same as the blogs page wireframe and the All blogs page wireframe
+                                because I want the information to be laid out the same.
+                            </p>
+                        </aside>
+                    </figure>
+                </p>
+
+                <p>
+                    <figure><img class="png" src="../images/AllBlogsPage.png" alt="Data-Art page wireframe">
+                        <aside>
+                            <h4 class="subt">All Blogs page wireframe</h4>
+                            <p>
+                                The design is the same as the blogs page wireframe and the web design page wireframe
+                                because I want the information to be laid out the same.
+                            </p>
+                        </aside>
+                    </figure>
+                </p>
 
             </article>
 
         </main>
     </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section reference">
+                <h5 class="ref"><span>Interactive</span>Media</h5>
+                <p class="def">Interactive Media is creative and mind-blowing ways that
+                    people share ideas and information using innovated technology.</p>
+                <br>
+                <p class="def">LETS DIGITIZE!!</p>
+                <br>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i> &nbsp; 073 136 6742</span>
+                </div>
+                <div class="socials">
+                    <a href="#" class="u-url"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="u-url"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="u-url"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+    
+            <div class="footer-section blogs">
+                <h6 class="foot">Blogs</h6>
+                    <ul>
+                        <li><a class="u-url" href="../DevBlogs/week3.html">Week3</a></li>
+                        <li><a class="u-url" href="../DevBlogs/week4.html">Week4</a></li>
+                        <li><a class="u-url" href="../DevBlogs/week5.html">Week5</a></li>
+                        <li><a class="u-url" href="../DevBlogs/week6.html">Week6</a></li>
+                        <li><a class="u-url" href="../DevBlogs/reflection.html">Reflection</a></li>
+                    </ul>  
+            </div>
+    
+            <div class="footer-section guides">
+                <h2 class="foot">Guides</h2>
+                    <ul>
+                        <li><a class="u-url" href="wireframes.html">Wireframes</a>
+                        <li><a class="u-url" href="styleguide.html">Styleguides</a></li>
+                        <li><a class="u-url" href="notes.html">Notes</a></li> 
+                        <li><a class="u-url" href="WebDesign.html">WebDesign</a></li>
+                    </ul> 
+            </div>
+    
+            <div class="footer-section contact-us">
+                <h3 class="foot">Contact Us</h3>
+                <br>
+                <form action="../index.html" method="post">
+                  <input type="name" name="name" class="text-input contact-input" placeholder="Your name and surname...">
+                  <textarea name="message" class="text-input contact-input" placeholder="Your feedback..."></textarea>
+                  <button onclick="addComment()" type="submit" class="btn">
+                    <i class="fas fa-comment-dots"></i> <a href="../index.html"> Send</a>
+                  </button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            &copy; interactivemedia.com | Designed by Lerato Mohapi
+        </div>
+    </footer>
     
 </body>
 </html>

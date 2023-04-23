@@ -5,8 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Implementation Notes</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="../Scripts/design.js" defer></script>
+    <link rel="stylesheet" href="../Styles/normalize.css">
+    <link rel="stylesheet" href="../Styles/style.css">
+    <script src="https://kit.fontawesome.com/983c1e16c7.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <section id="top-butt">
+        <i id="top" class="fas fa-chevron-up"></i>
+    </section>
+
+    <section class="notes">
+        <header>
+            <nav class="navi">
+                <label for="blog" class="blog">Implementation Notes</label>
+
+                <input type="checkbox" id="check">
+
+                <label for="check" class="bars"><i class="fa-solid fa-bars"></i></label>
+
+                <ul>
+                    <li><a href="../index.html" class="u-url"><i class="fas fa-home"></i> Homepage</a></li>
+                    <li><a class="u-url" href="../DevBlogs/Blogs.html"><i class="fas fa-pager"></i> Dev Blogs</a></li>
+                    <li><a class="u-url" href="../InternetArt/Art(s).html"><i class="fas fa-pager"></i> Internet Art(s)</a></li>
+                    <li><a class="u-url" href="WebDesign.html"><i class="fas fa-pager"></i> Web Design</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article class="art8">
+                <p>
+                    •	I designed the wireframes first.
+                    •	Resized and compressed the images to be added on the website.
+                    •	Drew the user flow and mind map diagrams for the UI & UX.
+                    •	Searched for images to use as the collage for my internet art design.
+                    •	Coded the HTML files.
+                    •	Group the files into folders for the code to have order.
+                    •	Add content in the blogs pages for the Dev Blogs section.
+                    •	Add content in the Design section pages.
+                    •	Coded the CSS styling.
+                    •	Coded the JavaScript file for the sliders in the homepage.
+                    •	Coded the JavaScript files for the internet art designs.
+                    •	Added the files to the GitHub repository.
+                    •	Deployed the website
+               </p>
+            </article>
+        </main>
+    </section>
     
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section reference">
+                <h1 class="ref"><span>Interactive</span>Media</h1>
+                <p class="def">Interactive Media is creative and mind-blowing ways that
+                    people share ideas and information using innovated technology.</p>
+                <br>
+                <p class="def">LETS DIGITIZE!!</p>
+                <br>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i> &nbsp; 073 136 6742</span>
+                </div>
+                <div class="socials">
+                    <a href="#" class="u-url"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="u-url"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="u-url"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+    
+            <div class="footer-section blogs">
+                <h2 class="foot">Blogs</h2>
+                    <ul>
+                        <li><a class="u-url" href="../DevBlogs/week3.html">Week3</a></li>
+                        <li><a class="u-url" href="../DevBlogs/week4.html">Week4</a></li>
+                        <li><a class="u-url" href="../DevBlogs/week5.html">Week5</a></li>
+                        <li><a class="u-url" href="../DevBlogs/week6.html">Week6</a></li>
+                        <li><a class="u-url" href="../DevBlogs/reflection.html">Reflection</a></li>
+                    </ul>  
+            </div>
+    
+            <div class="footer-section guides">
+                <h3 class="foot">Guides</h3>
+                    <ul>
+                        <li><a class="u-url" href="wireframes.html">Wireframes</a>
+                        <li><a class="u-url" href="styleguide.html">Styleguides</a></li> 
+                        <li><a class="u-url" href="WebDesign.html">WebDesign</a></li>
+                        <li><a class="u-url" href="IxDprocess.html">IxD Process</a></li>
+                    </ul> 
+            </div>
+    
+            <div class="footer-section contact-us">
+                <h4 class="foot">Contact Us</h4>
+                <br>
+                <form action="../index.html" method="post">
+                  <input type="name" name="name" class="text-input contact-input" placeholder="Your name and surname...">
+                  <textarea name="message" class="text-input contact-input" placeholder="Your feedback..."></textarea>
+                  <button onclick="addComment()" type="submit" class="btn">
+                    <i class="fas fa-comment-dots"></i> <a href="../index.html"> Send</a>
+                  </button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            &copy; interactivemedia.com | Designed by Lerato Mohapi
+        </div>
+    </footer>
 </body>
 </html>

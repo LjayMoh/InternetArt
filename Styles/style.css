@@ -1002,4 +1002,45 @@ aside{
     color:rgb(0, 0, 0);
     backdrop-filter: blur(1px);
 }
+/*------------- Styleguide Page --------*/
+
+.styleguide{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(223, 223, 223);
+    background: url(../images/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg) no-repeat;
+    background-size: cover;
+    height: 300vh;
+}
+
+.art9 p{
+    margin: 0px 60px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    backdrop-filter: blur(1px);
+}
+
+.subject{
+    font-size: 25px;
+    color: rgb(240, 232, 221);
+    margin: 0px 35px;
+}
+
+/*------------- WebDesign Page --------*/
+
+.notes{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(223, 223, 223);
+    background: url(../images/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg) no-repeat;
+    background-size: cover;
+    height: 300vh;
+}
+
+.art8 p{
+    margin: 0px 60px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    backdrop-filter: blur(1px);
+}
 
